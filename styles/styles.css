@@ -1,0 +1,41 @@
+.datebook {
+	margin-top: 5px;
+	margin-left: 50px;
+}
+
+.styles-task {
+	text-decoration: none;
+}
+
+.styles-task:nth-child(3n) {
+	color: red;
+	font-size: 30px;
+}
+
+.styles-task__line-throught {
+	text-decoration: line-through;
+}
+
+.yarets-logo {
+	background: top left no-repeat #f90710;
+	width: 125px;
+	height: 73px;
+	border-radius: 4px;
+	margin-left: 50px;
+	margin-top: 5px;
+}
+
+.logotip {
+	transition: 5s;
+	background-color: rgb(100, 100, 100);
+}
+
+.yarets-logo__text {
+	color: white;
+	border-radius: 4px;
+	font-size: 21px;
+	position: relative;
+	left: 4%;
+	top: 25%;
+	text-transform: uppercase;
+}
